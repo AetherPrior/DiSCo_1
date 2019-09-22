@@ -22,7 +22,7 @@ int main(void)
         }
     }
     int kacchan[N-2],deku[N-2];
-    long long int num = 2<<(N-2);
+    long long int num = 1<<(N-2);
     for(long long i = 0;i<num;i++)
     {
         long long temp = i;
